@@ -1,0 +1,190 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri Jul 12 19:41:21.861038 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Fri Jul 12 19:41:21.861089 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.32.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 12:56:54.919970 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 12:56:54.924635 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 13:43:03.410225 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 13:43:03.421780 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.128.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 13:46:28.792572 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 13:46:28.800050 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.160.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 13:48:48.368068 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 13:48:48.404896 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.144.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 13:54:54.593541 2019] [core:warn] [pid 7] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 15 13:54:54.601381 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 13:54:54.601409 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.176.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 13:58:52.470719 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 13:58:52.476850 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.208.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 14:09:47.956587 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 14:09:47.956639 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 14:12:37.020553 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 14:12:37.020613 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 14:16:10.113638 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 14:16:10.113693 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 14:21:26.387257 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 14:21:26.387322 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Jul 15 14:21:50.593361 2019] [php7:error] [pid 9] [client 172.23.0.1:43706] script '/var/www/html/phpinfo.php' not found or unable to stat
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 14:35:07.904923 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 14:35:07.904979 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 14:40:57.079992 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 14:40:57.080041 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.29.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 15:15:59.746412 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 15:15:59.746462 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 16:07:23.776839 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 16:07:23.776888 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.16.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 16:09:23.898353 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 16:09:23.898405 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.32.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 16:10:38.291626 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 16:10:38.291678 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Jul 15 16:13:58.392807 2019] [php7:notice] [pid 8] [client 192.168.48.1:50422] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5342?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5342? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:13:58.392856 2019] [php7:notice] [pid 8] [client 192.168.48.1:50422] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:13:58.392864 2019] [php7:notice] [pid 8] [client 192.168.48.1:50422] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:13:58.392869 2019] [php7:notice] [pid 8] [client 192.168.48.1:50422] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:13:58.392875 2019] [php7:notice] [pid 8] [client 192.168.48.1:50422] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:13:58.392880 2019] [php7:notice] [pid 8] [client 192.168.48.1:50422] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:16:11.108143 2019] [php7:notice] [pid 9] [client 192.168.48.1:50618] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5342?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5342? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:16:11.108188 2019] [php7:notice] [pid 9] [client 192.168.48.1:50618] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:16:11.108196 2019] [php7:notice] [pid 9] [client 192.168.48.1:50618] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:16:11.108201 2019] [php7:notice] [pid 9] [client 192.168.48.1:50618] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:16:11.108207 2019] [php7:notice] [pid 9] [client 192.168.48.1:50618] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:16:11.108212 2019] [php7:notice] [pid 9] [client 192.168.48.1:50618] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:17:23.748523 2019] [php7:notice] [pid 10] [client 192.168.48.1:50636] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5342?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5342? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:17:23.748568 2019] [php7:notice] [pid 10] [client 192.168.48.1:50636] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:17:23.748575 2019] [php7:notice] [pid 10] [client 192.168.48.1:50636] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:17:23.748581 2019] [php7:notice] [pid 10] [client 192.168.48.1:50636] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:17:23.748596 2019] [php7:notice] [pid 10] [client 192.168.48.1:50636] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:17:23.748601 2019] [php7:notice] [pid 10] [client 192.168.48.1:50636] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.80.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 16:25:49.247534 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 16:25:49.247580 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Jul 15 16:26:04.679580 2019] [php7:notice] [pid 8] [client 192.168.80.1:46330] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5342?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5342? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:26:04.679626 2019] [php7:notice] [pid 8] [client 192.168.80.1:46330] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:26:04.679634 2019] [php7:notice] [pid 8] [client 192.168.80.1:46330] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:26:04.679639 2019] [php7:notice] [pid 8] [client 192.168.80.1:46330] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:26:04.679646 2019] [php7:notice] [pid 8] [client 192.168.80.1:46330] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:26:04.679651 2019] [php7:notice] [pid 8] [client 192.168.80.1:46330] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.112.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 16:38:33.799810 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 16:38:33.799859 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Jul 15 16:39:29.942922 2019] [php7:notice] [pid 9] [client 192.168.112.1:49562] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5342?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5342? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:39:29.942967 2019] [php7:notice] [pid 9] [client 192.168.112.1:49562] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:39:29.942975 2019] [php7:notice] [pid 9] [client 192.168.112.1:49562] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:39:29.942980 2019] [php7:notice] [pid 9] [client 192.168.112.1:49562] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:39:29.942986 2019] [php7:notice] [pid 9] [client 192.168.112.1:49562] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:39:29.943000 2019] [php7:notice] [pid 9] [client 192.168.112.1:49562] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:14.058684 2019] [php7:notice] [pid 10] [client 192.168.112.1:49590] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:14.058730 2019] [php7:notice] [pid 10] [client 192.168.112.1:49590] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:14.058738 2019] [php7:notice] [pid 10] [client 192.168.112.1:49590] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:14.058744 2019] [php7:notice] [pid 10] [client 192.168.112.1:49590] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:14.058749 2019] [php7:notice] [pid 10] [client 192.168.112.1:49590] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:14.058755 2019] [php7:notice] [pid 10] [client 192.168.112.1:49590] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:27.037646 2019] [php7:notice] [pid 11] [client 192.168.112.1:49596] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:27.037697 2019] [php7:notice] [pid 11] [client 192.168.112.1:49596] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:27.037705 2019] [php7:notice] [pid 11] [client 192.168.112.1:49596] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:27.037710 2019] [php7:notice] [pid 11] [client 192.168.112.1:49596] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:27.037716 2019] [php7:notice] [pid 11] [client 192.168.112.1:49596] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:41:27.037721 2019] [php7:notice] [pid 11] [client 192.168.112.1:49596] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.144.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 16:46:55.518052 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 16:46:55.518103 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Jul 15 16:48:11.124486 2019] [php7:notice] [pid 8] [client 192.168.144.1:51898] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:11.124538 2019] [php7:notice] [pid 8] [client 192.168.144.1:51898] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:11.124545 2019] [php7:notice] [pid 8] [client 192.168.144.1:51898] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:11.124551 2019] [php7:notice] [pid 8] [client 192.168.144.1:51898] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:11.124557 2019] [php7:notice] [pid 8] [client 192.168.144.1:51898] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:11.124562 2019] [php7:notice] [pid 8] [client 192.168.144.1:51898] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:27.129189 2019] [php7:notice] [pid 9] [client 192.168.144.1:51914] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Network is unreachable\n\tIs the server running on host &quot;10.0.75.1&quot; and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:27.129241 2019] [php7:notice] [pid 9] [client 192.168.144.1:51914] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:27.129249 2019] [php7:notice] [pid 9] [client 192.168.144.1:51914] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:27.129255 2019] [php7:notice] [pid 9] [client 192.168.144.1:51914] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:27.129261 2019] [php7:notice] [pid 9] [client 192.168.144.1:51914] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:27.129266 2019] [php7:notice] [pid 9] [client 192.168.144.1:51914] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:38.425047 2019] [php7:notice] [pid 10] [client 192.168.144.1:51928] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:38.425096 2019] [php7:notice] [pid 10] [client 192.168.144.1:51928] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:38.425104 2019] [php7:notice] [pid 10] [client 192.168.144.1:51928] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:38.425110 2019] [php7:notice] [pid 10] [client 192.168.144.1:51928] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:38.425116 2019] [php7:notice] [pid 10] [client 192.168.144.1:51928] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:48:38.425134 2019] [php7:notice] [pid 10] [client 192.168.144.1:51928] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:50:18.336137 2019] [php7:notice] [pid 11] [client 192.168.144.1:51952] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:50:18.336187 2019] [php7:notice] [pid 11] [client 192.168.144.1:51952] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:50:18.336195 2019] [php7:notice] [pid 11] [client 192.168.144.1:51952] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:50:18.336201 2019] [php7:notice] [pid 11] [client 192.168.144.1:51952] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:50:18.336207 2019] [php7:notice] [pid 11] [client 192.168.144.1:51952] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:50:18.336213 2019] [php7:notice] [pid 11] [client 192.168.144.1:51952] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.176.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 16:54:20.689578 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 16:54:20.689632 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Jul 15 16:54:37.341962 2019] [php7:notice] [pid 8] [client 192.168.176.1:50964] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:54:37.342003 2019] [php7:notice] [pid 8] [client 192.168.176.1:50964] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:54:37.342011 2019] [php7:notice] [pid 8] [client 192.168.176.1:50964] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:54:37.342017 2019] [php7:notice] [pid 8] [client 192.168.176.1:50964] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:54:37.342023 2019] [php7:notice] [pid 8] [client 192.168.176.1:50964] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:54:37.342028 2019] [php7:notice] [pid 8] [client 192.168.176.1:50964] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.208.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 16:57:38.621350 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 16:57:38.621399 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Jul 15 16:59:43.096183 2019] [php7:notice] [pid 8] [client 192.168.208.1:39676] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;localhost&quot; (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Cannot assign requested address\n\tIs the server running on host &quot;localhost&quot; (::1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:59:43.096228 2019] [php7:notice] [pid 8] [client 192.168.208.1:39676] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:59:43.096235 2019] [php7:notice] [pid 8] [client 192.168.208.1:39676] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:59:43.096241 2019] [php7:notice] [pid 8] [client 192.168.208.1:39676] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:59:43.096254 2019] [php7:notice] [pid 8] [client 192.168.208.1:39676] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 16:59:43.096260 2019] [php7:notice] [pid 8] [client 192.168.208.1:39676] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:35.357480 2019] [php7:notice] [pid 9] [client 192.168.208.1:39716] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;tcp://docker-in-docker&quot; to address: Name or service not known in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:35.357528 2019] [php7:notice] [pid 9] [client 192.168.208.1:39716] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:35.357536 2019] [php7:notice] [pid 9] [client 192.168.208.1:39716] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:35.357542 2019] [php7:notice] [pid 9] [client 192.168.208.1:39716] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:35.357548 2019] [php7:notice] [pid 9] [client 192.168.208.1:39716] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:35.357553 2019] [php7:notice] [pid 9] [client 192.168.208.1:39716] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:45.233391 2019] [php7:notice] [pid 10] [client 192.168.208.1:39720] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;127.0.0.1&quot; and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:45.233438 2019] [php7:notice] [pid 10] [client 192.168.208.1:39720] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:45.233446 2019] [php7:notice] [pid 10] [client 192.168.208.1:39720] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:45.233451 2019] [php7:notice] [pid 10] [client 192.168.208.1:39720] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:45.233473 2019] [php7:notice] [pid 10] [client 192.168.208.1:39720] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:01:45.233478 2019] [php7:notice] [pid 10] [client 192.168.208.1:39720] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.240.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 17:04:32.329453 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 17:04:32.329504 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Jul 15 17:04:37.877975 2019] [php7:notice] [pid 8] [client 192.168.240.1:37836] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;127.0.0.1&quot; and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:04:37.878024 2019] [php7:notice] [pid 8] [client 192.168.240.1:37836] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:04:37.878032 2019] [php7:notice] [pid 8] [client 192.168.240.1:37836] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:04:37.878037 2019] [php7:notice] [pid 8] [client 192.168.240.1:37836] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:04:37.878050 2019] [php7:notice] [pid 8] [client 192.168.240.1:37836] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:04:37.878055 2019] [php7:notice] [pid 8] [client 192.168.240.1:37836] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:06:51.366647 2019] [php7:notice] [pid 12] [client 192.168.240.1:37996] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused\n\tIs the server running on host &quot;127.0.0.1&quot; and accepting\n\tTCP/IP connections on port 5432? in /var/www/moodle/lib/dml/pgsql_native_moodle_database.php on line 176, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:06:51.366700 2019] [php7:notice] [pid 12] [client 192.168.240.1:37996] PHP Stack trace:, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:06:51.366708 2019] [php7:notice] [pid 12] [client 192.168.240.1:37996] PHP   1. {main}() /var/www/moodle/install.php:0, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:06:51.366713 2019] [php7:notice] [pid 12] [client 192.168.240.1:37996] PHP   2. install_db_validate() /var/www/moodle/install.php:287, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:06:51.366719 2019] [php7:notice] [pid 12] [client 192.168.240.1:37996] PHP   3. pgsql_native_moodle_database->connect() /var/www/moodle/lib/installlib.php:184, referer: http://localhost:8087/moodle/install.php
+[Mon Jul 15 17:06:51.366724 2019] [php7:notice] [pid 12] [client 192.168.240.1:37996] PHP   4. pg_connect() /var/www/moodle/lib/dml/pgsql_native_moodle_database.php:176, referer: http://localhost:8087/moodle/install.php
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 17:15:44.575107 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 17:15:44.575178 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 18:06:08.980609 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 18:06:08.980669 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 15 18:14:56.882015 2019] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Mon Jul 15 18:14:56.882067 2019] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

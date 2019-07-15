@@ -1,0 +1,116 @@
+version: '2'
+
+networks:
+  frontend:
+    driver: "bridge"
+  backend:
+    driver: "bridge"
+
+volumes:
+  mysql:
+    driver: "local"
+  postgres:
+    driver: "local"
+
+services:
+  php73:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - frontend
+      - backend
+    volumes:
+      - /home/marcus/Desenvolvimento/php/:/var/www:cached
+    environment:
+      - DOCKER_HOST=tcp://docker-in-docker:2375
+    extra_hosts:
+      - "dockerhost:10.0.75.1"
+    links:
+      - docker-in-docker
+      - postgres
+
+  apache2:
+    build:
+      context: .
+      args:
+        - DOCUMENT_ROOT=/var/www
+    networks:
+      - frontend
+      - backend
+    volumes:
+      - ./logs:/var/log/apache2
+      - /home/marcus/Desenvolvimento/php/:/var/www:cached
+    ports:
+      - "8087:80"
+      - "4437:443" 
+    environment:
+      - DOCKER_HOST=tcp://docker-in-docker:2375
+    depends_on:
+      - php73
+    links:
+      - docker-in-docker
+
+  mysql:
+    build:
+      context: ../mysql
+      args:
+        - MYSQL_VERSION=latest
+    environment:
+      - MYSQL_DATABASE=database
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - ../mysql:/var/lib/mysql
+      - ./mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+    environment:
+      - DOCKER_HOST=tcp://docker-in-docker:2375
+    networks:
+      - backend
+    links:
+      - docker-in-docker
+
+  postgres:
+    build: ../postgres
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+      - ../postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=default
+      - POSTGRES_USER=default
+      - POSTGRES_PASSWORD=secret
+      - GITLAB_POSTGRES_INIT=true
+      - GITLAB_POSTGRES_HOST=postgres
+      - GITLAB_POSTGRES_USER=laradock_gitlab
+      - GITLAB_POSTGRES_PASSWORD=laradock_gitlab
+      - GITLAB_POSTGRES_DB=laradock_gitlab
+      - JUPYTERHUB_POSTGRES_INIT=true
+      - JUPYTERHUB_POSTGRES_USER=laradock_jupyterhub
+      - JUPYTERHUB_POSTGRES_PASSWORD=laradock_jupyterhub
+      - JUPYTERHUB_POSTGRES_DB=laradock_jupyterhub
+      - SONARQUBE_POSTGRES_INIT=true
+      - SONARQUBE_POSTGRES_DB=sonar
+      - SONARQUBE_POSTGRES_USER=sonar
+      - SONARQUBE_POSTGRES_PASSWORD=sonarPass
+    networks:
+      - backend
+    environment:
+      - DOCKER_HOST=tcp://docker-in-docker:2375
+    links:
+      - docker-in-docker
+    restart: always
+
+  docker-in-docker:
+    image: docker:dind
+    privileged: true
+    volumes:
+      - /home/marcus/Desenvolvimento/php/:/var/www
+    expose:
+      - 2375
+    networks:
+      - backend

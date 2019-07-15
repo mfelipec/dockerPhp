@@ -1,0 +1,21 @@
+version: '2'
+
+networks:
+    frontend:
+        driver: "bridge"
+    backend:
+        driver: "bridge"
+
+services:
+    php56:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        networks:
+            - frontend
+            - backend
+        volumes:
+            - ./logs:/var/log/apache2
+        ports:
+            - "8085:80"
+            - "4435:443" 
