@@ -11,6 +11,8 @@ volumes:
     driver: "local"
   postgres:
     driver: "local"
+  mssql:
+    driver: "local"
 
 services:
   php73:
@@ -26,9 +28,12 @@ services:
       - DOCKER_HOST=tcp://docker-in-docker:2375
     extra_hosts:
       - "dockerhost:10.0.75.1"
+    depends_on:
+      - mssql
     links:
       - docker-in-docker
       - postgres
+      - mssql
 
   apache2:
     build:
@@ -104,6 +109,20 @@ services:
     links:
       - docker-in-docker
     restart: always
+
+  mssql:
+    build:
+      context: ../mssql
+    environment:
+      - MSSQL_DATABASE=arasrvvirssd006
+      - SA_PASSWORD=cef_sicsu(!)z4hdtr23
+      - ACCEPT_EULA=Y
+    volumes:
+      - ./mssql:/var/opt/mssql
+    ports:
+      - "1433:1433"
+    networks:
+      - backend
 
   docker-in-docker:
     image: docker:dind

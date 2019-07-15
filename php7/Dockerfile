@@ -4,7 +4,7 @@ LABEL maintainer="Marcus Felipe <mfelipec@gmail.com>"
 ## run apt-get update
 RUN echo "------ INSTALANDO PACOTES PHP ------"
 RUN apt-get update -yqq && \
-    apt-get install aptitude php7.3 php7.3-curl php7.3-gd \
+    apt-get install aptitude curl php7.3 php7.3-curl php7.3-gd \
     php7.3-pgsql php7.3-mysql php7.3-odbc php7.3-xdebug \
     php7.3-xml php7.3-soap php7.3-pdo-pgsql php7.3-mbstring \
     php7.3-ldap php7.3-zip php7.3-intl php7.3-xmlrpc -yqq
@@ -30,6 +30,24 @@ COPY ./sites/000-default.conf /etc/apache2/sites-available/
 COPY vhost.conf /etc/apache2/sites-enabled/vhosts.conf
 
 COPY phpinfo.php /var/www/phpinfo.php
+
+
+RUN echo "------ INSTALANDO MSSQL -------"
+RUN set -eux; \
+      curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
+      curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
+      apt-get update -yqq && \
+      ACCEPT_EULA=Y apt-get install -y msodbcsql17 mssql-tools unixodbc unixodbc-dev libgss3 odbcinst locales && \
+      ln -sfn /opt/mssql-tools/bin/sqlcmd /usr/bin/sqlcmd && \
+      ln -sfn /opt/mssql-tools/bin/bcp /usr/bin/bcp && \
+      echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
+      locale-gen && \
+      pecl install sqlsrv pdo_sqlsrv \
+      echo "extension=sqlsrv.so"     > /etc/php/7.3/cli/conf.d/20-sqlsrv.ini && \
+      echo "extension=pdo_sqlsrv.so" > /etc/php/7.3/cli/conf.d/20-pdo_sqlsrv.ini \
+      && php -m | grep -q 'sqlsrv' \
+      && php -m | grep -q 'pdo_sqlsrv'
+
 
 RUN apt-get clean autoclean && apt-get autoremove -y
 
